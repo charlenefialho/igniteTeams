@@ -1,11 +1,10 @@
-import { Container, Title } from "./styles"
+import { Header } from "@components/Header"
+import { Container } from "./styles"
 
 export default function Groups(){
   return(
     <Container>
-      <Title>
-        Groups working
-      </Title>
+      <Header/>
     </Container>
     
   )
